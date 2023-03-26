@@ -1,0 +1,575 @@
+{
+  "settings": {
+    "languages": [
+      "en"
+    ],
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "autoSave": true,
+    "modelFileName": "model.nlp",
+    "executeActionsBeforeAnswers": false,
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "en"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "en": {
+        "settings": {
+          "locale": "en",
+          "trainByDomain": false,
+          "tag": "domain-manager-en",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {},
+        "intentDict": {},
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "hi there",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "yo",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "greetings",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "whats up",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "sup monkey",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "wsg",
+            "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "see you later",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "see ya",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "goodbye",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "farewell",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "What car brands do you know?",
+            "intent": "car_brand"
+          },
+          {
+            "domain": "default",
+            "utterance": "Which car brands do you like?",
+            "intent": "car_brand"
+          },
+          {
+            "domain": "default",
+            "utterance": "Tell me about your favorite car brands",
+            "intent": "car_brand"
+          },
+          {
+            "domain": "default",
+            "utterance": "What car brands do you recommend?",
+            "intent": "car_brand"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can you recommend any good car models?",
+            "intent": "car_model"
+          },
+          {
+            "domain": "default",
+            "utterance": "What are some popular car models?",
+            "intent": "car_model"
+          },
+          {
+            "domain": "default",
+            "utterance": "Which car models do you like?",
+            "intent": "car_model"
+          },
+          {
+            "domain": "default",
+            "utterance": "What do you think about the latest car models?",
+            "intent": "car_model"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's your favorite pet?",
+            "intent": "pet"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you have any pets?",
+            "intent": "pet"
+          },
+          {
+            "domain": "default",
+            "utterance": "What kind of pets do you like?",
+            "intent": "pet"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can you recommend a good pet?",
+            "intent": "pet"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's your favorite breed of dog?",
+            "intent": "dog"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you have a dog?",
+            "intent": "dog"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's the best way to train a dog?",
+            "intent": "dog"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's the most loyal breed of dog?",
+            "intent": "dog"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's your favorite breed of cat?",
+            "intent": "cat"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you have a cat?",
+            "intent": "cat"
+          },
+          {
+            "domain": "default",
+            "utterance": "How do I train a cat?",
+            "intent": "cat"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's the most affectionate breed of cat?",
+            "intent": "cat"
+          },
+          {
+            "domain": "default",
+            "utterance": "what did I say before",
+            "intent": "previousMessage"
+          },
+          {
+            "domain": "default",
+            "utterance": "can you repeat what I said",
+            "intent": "previousMessage"
+          },
+          {
+            "domain": "default",
+            "utterance": "what was my last message",
+            "intent": "previousMessage"
+          },
+          {
+            "domain": "default",
+            "utterance": "tell me my previous message",
+            "intent": "previousMessage"
+          },
+          {
+            "domain": "default",
+            "utterance": "I LOVE YOU!!",
+            "intent": "love"
+          },
+          {
+            "domain": "default",
+            "utterance": "I love you!!",
+            "intent": "love"
+          },
+          {
+            "domain": "default",
+            "utterance": "I love youu",
+            "intent": "love"
+          },
+          {
+            "domain": "default",
+            "utterance": "I love you so much.",
+            "intent": "love"
+          },
+          {
+            "domain": "default",
+            "utterance": "Ily",
+            "intent": "love"
+          },
+          {
+            "domain": "default",
+            "utterance": "Ilysm",
+            "intent": "love"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "en",
+              "tag": "nlu-en",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "en",
+        "hi there"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "yo"
+      ],
+      [
+        "en",
+        "greetings"
+      ],
+      [
+        "en",
+        "whats up"
+      ],
+      [
+        "en",
+        "sup monkey"
+      ],
+      [
+        "en",
+        "wsg"
+      ],
+      [
+        "en",
+        "bye"
+      ],
+      [
+        "en",
+        "see you later"
+      ],
+      [
+        "en",
+        "see ya"
+      ],
+      [
+        "en",
+        "goodbye"
+      ],
+      [
+        "en",
+        "farewell"
+      ],
+      [
+        "en",
+        "What car brands do you know?"
+      ],
+      [
+        "en",
+        "Which car brands do you like?"
+      ],
+      [
+        "en",
+        "Tell me about your favorite car brands"
+      ],
+      [
+        "en",
+        "What car brands do you recommend?"
+      ],
+      [
+        "en",
+        "Can you recommend any good car models?"
+      ],
+      [
+        "en",
+        "What are some popular car models?"
+      ],
+      [
+        "en",
+        "Which car models do you like?"
+      ],
+      [
+        "en",
+        "What do you think about the latest car models?"
+      ],
+      [
+        "en",
+        "What's your favorite pet?"
+      ],
+      [
+        "en",
+        "Do you have any pets?"
+      ],
+      [
+        "en",
+        "What kind of pets do you like?"
+      ],
+      [
+        "en",
+        "Can you recommend a good pet?"
+      ],
+      [
+        "en",
+        "What's your favorite breed of dog?"
+      ],
+      [
+        "en",
+        "Do you have a dog?"
+      ],
+      [
+        "en",
+        "What's the best way to train a dog?"
+      ],
+      [
+        "en",
+        "What's the most loyal breed of dog?"
+      ],
+      [
+        "en",
+        "What's your favorite breed of cat?"
+      ],
+      [
+        "en",
+        "Do you have a cat?"
+      ],
+      [
+        "en",
+        "How do I train a cat?"
+      ],
+      [
+        "en",
+        "What's the most affectionate breed of cat?"
+      ],
+      [
+        "en",
+        "what did I say before"
+      ],
+      [
+        "en",
+        "can you repeat what I said"
+      ],
+      [
+        "en",
+        "what was my last message"
+      ],
+      [
+        "en",
+        "tell me my previous message"
+      ],
+      [
+        "en",
+        "I LOVE YOU!!"
+      ],
+      [
+        "en",
+        "I love you!!"
+      ],
+      [
+        "en",
+        "I love youu"
+      ],
+      [
+        "en",
+        "I love you so much."
+      ],
+      [
+        "en",
+        "Ily"
+      ],
+      [
+        "en",
+        "Ilysm"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "en": {
+        "greeting": [
+          {
+            "answer": "Hello! How can I assist you today?"
+          },
+          {
+            "answer": "Hi there! What can I help you with?"
+          },
+          {
+            "answer": "Hey! What do you want to know?"
+          }
+        ],
+        "goodbye": [
+          {
+            "answer": "Goodbye! Have a nice day!"
+          },
+          {
+            "answer": "See you later! Take care!"
+          },
+          {
+            "answer": "Farewell! See you soon!"
+          }
+        ],
+        "car_brand": [
+          {
+            "answer": "I like Toyota, Ford, and Honda."
+          },
+          {
+            "answer": "My favorite car brands are BMW, Mercedes-Benz, and Audi."
+          },
+          {
+            "answer": "I recommend checking out Tesla, Mazda, and Hyundai."
+          }
+        ],
+        "car_model": [
+          {
+            "answer": "Some popular car models are Toyota Camry, Honda Civic, and Ford F-150."
+          },
+          {
+            "answer": "I like the Tesla Model S, Audi A8, and BMW 5 Series."
+          },
+          {
+            "answer": "The latest car models that I recommend are the Tesla Model Y, Ford Mustang Mach-E, and Porsche Taycan."
+          }
+        ],
+        "pet": [
+          {
+            "answer": "I love dogs! They're so loyal."
+          },
+          {
+            "answer": "I have a cat named Mittens. She's the best."
+          },
+          {
+            "answer": "I think guinea pigs make great pets."
+          },
+          {
+            "answer": "Have you considered getting a hamster? They're low maintenance and super cute."
+          }
+        ],
+        "dog": [
+          {
+            "answer": "I love golden retrievers. They're so friendly!"
+          },
+          {
+            "answer": "I have a poodle. She's very smart and well-behaved."
+          },
+          {
+            "answer": "Positive reinforcement is the best way to train a dog."
+          },
+          {
+            "answer": "I think border collies are the most loyal breed of dog."
+          }
+        ],
+        "cat": [
+          {
+            "answer": "I love Siamese cats. They're so talkative and playful."
+          },
+          {
+            "answer": "I have a Maine Coon. He's very independent but also very loving."
+          },
+          {
+            "answer": "Cats are actually very trainable! Try using clicker training."
+          },
+          {
+            "answer": "I think Ragdolls are the most affectionate breed of cat."
+          }
+        ],
+        "love": [
+          {
+            "answer": "I LOVE YOU SO MUCH MORE!!!!! ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️"
+          },
+          {
+            "answer": "AWWJWGSJSVJDVC"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}
